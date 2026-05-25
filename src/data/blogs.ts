@@ -1,0 +1,68 @@
+import { Bot, Code2, Search, Smartphone } from "lucide-react";
+
+export const blogs = [
+  {
+    slug: "why-every-business-needs-modern-website",
+    title: "Why Every Business Needs a Modern Website",
+    category: "Web Development",
+    date: "May 2026",
+    readTime: "5 min read",
+    desc: "A professional website builds trust, improves visibility, attracts clients, and helps your business grow online.",
+    icon: Code2,
+    image: "/images/modern.jpg",
+    content: [
+      "A modern website is no longer optional for businesses. It is your digital identity and often the first place where clients judge your professionalism.",
+      "A good website helps customers understand your services, contact you easily, and trust your brand before making a decision.",
+      "For small businesses, clinics, startups, and service providers, a fast and responsive website can directly improve lead generation.",
+      "Your website should be mobile-friendly, SEO-ready, fast-loading, and easy to navigate.",
+    ],
+  },
+  {
+    slug: "how-ai-automation-can-save-time-for-small-businesses",
+    title: "How AI Automation Can Save Time For Small Businesses",
+    category: "AI Automation",
+    date: "May 2026",
+    readTime: "6 min read",
+    desc: "Learn how AI chatbots, smart workflows, and automation tools can reduce repetitive manual tasks.",
+    icon: Bot,
+    image: "/images/AI.jpg",
+    content: [
+      "AI automation helps businesses reduce repetitive tasks and improve daily productivity.",
+      "Small businesses can use AI chatbots for customer support, lead collection, appointment booking, and basic query handling.",
+      "Automation can also help with reports, emails, data entry, invoices, and workflow notifications.",
+      "The goal of AI automation is not to replace people, but to save time and improve accuracy.",
+    ],
+  },
+  {
+    slug: "how-mobile-apps-improve-customer-experience",
+    title: "How Mobile Apps Improve Customer Experience",
+    category: "Mobile App",
+    date: "May 2026",
+    readTime: "4 min read",
+    desc: "Mobile apps help businesses provide faster service, better communication, and stronger customer engagement.",
+    icon: Smartphone,
+    image: "/images/Mobile-app.jpg",
+    content: [
+      "Mobile apps make it easier for customers to access your services directly from their phone.",
+      "Apps can improve communication through notifications, order tracking, booking systems, and account dashboards.",
+      "For businesses, mobile apps help build stronger customer relationships and increase repeat engagement.",
+      "A good mobile app should be simple, fast, secure, and easy to use.",
+    ],
+  },
+  {
+    slug: "seo-basics-every-business-owner-should-know",
+    title: "SEO Basics Every Business Owner Should Know",
+    category: "SEO",
+    date: "May 2026",
+    readTime: "7 min read",
+    desc: "Understand the basics of SEO and how your website can rank better on Google with proper structure.",
+    icon: Search,
+    image: "/images/seo.jpg",
+    content: [
+      "SEO helps your website appear on Google when people search for your services.",
+      "Basic SEO includes good page titles, useful content, fast loading speed, mobile responsiveness, and proper heading structure.",
+      "Internal linking and regular blog publishing can help Google understand your website better.",
+      "SEO takes time, but it is one of the best long-term methods to attract organic clients.",
+    ],
+  },
+];
