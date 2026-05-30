@@ -18,7 +18,7 @@ export default function Home() {
       <Services />
       {/* <Portfolio /> */}
       <BlogSection />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactForm />
       <ContactCTA />
       <Footer />

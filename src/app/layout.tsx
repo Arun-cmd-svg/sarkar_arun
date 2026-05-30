@@ -13,9 +13,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Arun Web Studio | Websites, Apps & AI Automation",
+  title: {
+    default: "Sarkar Arun | Websites, Apps & AI Automation",
+    template: "%s | Sarkar Arun",
+  },
   description:
-    "Personal portfolio and agency website for web development, mobile apps, AI automation, and business digital solutions.",
+    "Sarkar Arun builds modern websites, mobile apps, admin dashboards, AI automation tools, and SEO-friendly blog websites for businesses.",
+
+  keywords: [
+    "Sarkar Arun",
+    "website developer India",
+    "freelance web developer",
+    "mobile app developer",
+    "AI automation developer",
+    "business website development",
+    "Next.js developer",
+    "React Native developer",
+    "SEO website development",
+    "admin dashboard development",
+  ],
+
+  authors: [{ name: "Sarkar Arun" }],
+  creator: "Sarkar Arun",
+
+  openGraph: {
+    title: "Sarkar Arun | Websites, Apps & AI Automation",
+    description:
+      "I build modern websites, mobile apps, dashboards, AI automation tools, and SEO-friendly blog websites for businesses.",
+    url: "https://sarkar-arun.vercel.app/",
+    siteName: "Sarkar Arun",
+    type: "website",
+    locale: "en_IN",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Sarkar Arun | Websites, Apps & AI Automation",
+    description:
+      "Modern website, mobile app, dashboard, and AI automation development services.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

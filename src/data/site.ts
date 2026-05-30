@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Arun Web Studio",
+  name: "Sarkar Arun",
   tagline: "Web • AI • Automation",
 
   email: "sarkararun914@gmail.com",

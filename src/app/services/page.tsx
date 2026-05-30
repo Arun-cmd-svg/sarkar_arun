@@ -4,6 +4,11 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ServicesDetailed from "@/components/ervicesDetailed";
 
+export const metadata = {
+  title: "Services",
+  description:
+    "Website development, mobile app development, admin dashboard development, AI automation, and SEO blog website services.",
+};
 
 export default function ServicesPage() {
   return (

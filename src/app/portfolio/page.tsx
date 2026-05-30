@@ -4,6 +4,13 @@ import Navbar from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
 import PortfolioDetailed from "@/components/PortfolioDetailed";
 
+
+export const metadata = {
+  title: "Portfolio",
+  description:
+    "View website, mobile app, dashboard, and AI automation project examples by Arun Web Studio.",
+};
+
 export default function PortfolioPage() {
   return (
     <main className="min-h-screen bg-[#F8FAFC] text-[#0F172A]">

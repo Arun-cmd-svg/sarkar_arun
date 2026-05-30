@@ -9,6 +9,12 @@ const skills = [
   "SEO-Friendly Websites",
 ];
 
+export const metadata = {
+  title: "About",
+  description:
+    "Learn about Arun Web Studio, a personal web development brand focused on websites, mobile apps, dashboards, and AI automation.",
+};
+
 export default function About() {
   return (
     <section id="about" className="bg-white px-6 py-20">

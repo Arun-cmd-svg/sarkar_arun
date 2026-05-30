@@ -5,6 +5,13 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 
+export const metadata = {
+  title: "Blog",
+  description:
+    "Read practical articles about web development, mobile apps, AI automation, SEO, and digital business growth.",
+};
+
+
 
 export default function AboutPage() {
   return (

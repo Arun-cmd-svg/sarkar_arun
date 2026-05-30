@@ -29,7 +29,7 @@ const transporter = nodemailer.createTransport({
 });
 
     await transporter.sendMail({
-      from: `"Arun Web Studio" <${process.env.MAIL_USER}>`,
+      from: `"Sarkar Arun" <${process.env.MAIL_USER}>`,
       to: process.env.MAIL_TO,
       replyTo: email,
       subject: `New Project Inquiry - ${service}`,
