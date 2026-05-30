@@ -2,21 +2,15 @@ import { MetadataRoute } from "next";
 import { blogs } from "@/data/blogs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://sarkar-arun.vercel.app/";
+  const baseUrl = "https://sarkar-arun.vercel.app";
 
-  const staticPages = [
-    "",
-    "/about",
-    "/services",
-    "/portfolio",
-    "/blog",
-  ];
+  const staticPages = ["/", "/about", "/services", "/portfolio", "/blog"];
 
   const staticRoutes = staticPages.map((route) => ({
-    url: `${baseUrl}${route}`,
+    url: route === "/" ? baseUrl : `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
-    priority: route === "" ? 1 : 0.8,
+    priority: route === "/" ? 1 : 0.8,
   }));
 
   const blogRoutes = blogs.map((blog) => ({
