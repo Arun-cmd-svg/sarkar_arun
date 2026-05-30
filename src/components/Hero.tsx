@@ -37,7 +37,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="#portfolio"
+              href="/portfolio"
               className="inline-flex items-center gap-2 rounded-2xl border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-800 shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:text-blue-600"
             >
               View My Work

@@ -1,12 +1,33 @@
+import Link from "next/link";
 import { siteConfig } from "@/data/site";
+
+const quickLinks = [
+  { name: "Home", link: "/" },
+  { name: "About", link: "/about" },
+  { name: "Services", link: "/services" },
+  { name: "Portfolio", link: "/portfolio" },
+  { name: "Blog", link: "/blog" },
+  { name: "Contact", link: "/#contact-form" },
+];
+
+const services = [
+  { name: "Website Development", link: "/services" },
+  { name: "Mobile App Development", link: "/services" },
+  { name: "AI Automation", link: "/services" },
+  { name: "Admin Dashboard", link: "/services" },
+  { name: "SEO Optimization", link: "/services" },
+];
+
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white px-6 py-12">
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
-          <h2 className="text-2xl font-bold text-slate-900">
-            {siteConfig.name}
-          </h2>
+          <Link href="/">
+            <h2 className="text-2xl font-bold text-slate-900">
+              {siteConfig.name}
+            </h2>
+          </Link>
 
           <p className="mt-4 max-w-md text-sm leading-6 text-slate-600">
             I build modern websites, mobile apps, AI automation tools, and
@@ -18,11 +39,16 @@ export default function Footer() {
           <h3 className="font-bold text-slate-900">Quick Links</h3>
 
           <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            <li>Home</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            {quickLinks.map((item) => (
+              <li key={item.name}>
+                <Link
+                  href={item.link}
+                  className="transition hover:text-blue-600"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -30,11 +56,16 @@ export default function Footer() {
           <h3 className="font-bold text-slate-900">Services</h3>
 
           <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            <li>Website Development</li>
-            <li>Mobile App Development</li>
-            <li>AI Automation</li>
-            <li>Admin Dashboard</li>
-            <li>SEO Optimization</li>
+            {services.map((item) => (
+              <li key={item.name}>
+                <Link
+                  href={item.link}
+                  className="transition hover:text-blue-600"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
