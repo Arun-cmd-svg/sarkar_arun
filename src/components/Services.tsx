@@ -14,18 +14,7 @@ import {
 } from "lucide-react";
 
 const services = [
-  {
-    title: "Business Website Development",
-    desc: "I build modern, responsive, SEO-friendly corporate and business websites that improve digital presence and generate client leads through contact forms and WhatsApp integration.",
-    icon: Code2,
-    image: "/images/image2.jpg",
-  },
-  {
-    title: "Healthcare Management System",
-    desc: "I develop secure healthcare web applications for patient onboarding, billing, electronic health records, reporting, and internal operational workflow automation.",
-    icon: Activity,
-    image: "/images/image1.jpg",
-  },
+
   {
     title: "Admin Dashboard Development",
     desc: "I create powerful admin dashboards with analytics, KPI tracking, role-based access, reports, charts, and real-time business monitoring features.",
@@ -38,6 +27,7 @@ const services = [
     icon: Truck,
     image: "/images/image9.png",
   },
+  
   {
     title: "Healthcare Mobile Apps",
     desc: "I develop healthcare mobile applications such as phlebotomy apps, home collection apps, patient workflow apps, sample tracking, and field staff management tools.",
@@ -49,6 +39,18 @@ const services = [
     desc: "I build web and mobile feedback systems with custom feedback forms, real-time analytics, satisfaction tracking, reporting, and CRM-ready integration.",
     icon: MessageSquareText,
     image: "/images/image14.png",
+  },
+    {
+    title: "Business Website Development",
+    desc: "I build modern, responsive, SEO-friendly corporate and business websites that improve digital presence and generate client leads through contact forms and WhatsApp integration.",
+    icon: Code2,
+    image: "/images/image2.jpg",
+  },
+    {
+    title: "Healthcare Management System",
+    desc: "I develop secure healthcare web applications for patient onboarding, billing, electronic health records, reporting, and internal operational workflow automation.",
+    icon: Activity,
+    image: "/images/image1.jpg",
   },
 ];
 
