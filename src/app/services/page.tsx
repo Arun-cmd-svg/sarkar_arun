@@ -2,7 +2,7 @@ import Services from "@/components/Services";
 import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import ServicesDetailed from "@/components/ervicesDetailed";
+import ServicesDetailed from "@/components/ServicesDetailed";
 
 export const metadata = {
   title: "Services",
