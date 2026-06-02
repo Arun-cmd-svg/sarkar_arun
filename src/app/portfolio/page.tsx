@@ -35,7 +35,7 @@ export default function PortfolioPage() {
       </section>
 
       <PortfolioDetailed />
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Footer />
     </main>
   );

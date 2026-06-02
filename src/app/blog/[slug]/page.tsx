@@ -70,7 +70,7 @@ export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
         </div>
       </article>
 
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Footer />
     </main>
   );

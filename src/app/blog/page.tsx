@@ -37,7 +37,7 @@ export default function AboutPage() {
       </section>
 
       <About />
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Footer />
     </main>
   );

@@ -33,7 +33,7 @@ export default function ServicesPage() {
       </section>
 
       <ServicesDetailed />
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Footer />
     </main>
   );

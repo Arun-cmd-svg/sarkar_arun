@@ -162,7 +162,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Footer />
     </main>
   );
