@@ -44,13 +44,13 @@ const services = [
     title: "Business Website Development",
     desc: "I build modern, responsive, SEO-friendly corporate and business websites that improve digital presence and generate client leads through contact forms and WhatsApp integration.",
     icon: Code2,
-    image: "/images/image2.jpg",
+    image: "/images/image17.png",
   },
     {
     title: "Healthcare Management System",
     desc: "I develop secure healthcare web applications for patient onboarding, billing, electronic health records, reporting, and internal operational workflow automation.",
     icon: Activity,
-    image: "/images/image1.jpg",
+    image: "/images/image18.png",
   },
 ];
 

@@ -7,10 +7,10 @@ import { siteConfig } from "@/data/site";
 
 const navLinks = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
   { name: "Services", link: "/services" },
   { name: "Portfolio", link: "/portfolio" },
   { name: "Blog", link: "/blog" },
+  { name: "About", link: "/about" },
   { name: "Contact", link: "/#contact-form" },
 ];
 

@@ -12,7 +12,7 @@ const projects = [
     category: "Website Development",
     desc: "A responsive, high-performance corporate website designed to enhance digital presence, showcase enterprise mining operations, and streamline B2B lead generation via integrated smart contact forms and direct WhatsApp channels.",
     icon: Globe,
-    image: "/images/image2.jpg",
+    image: "/images/image17.png",
     tags: ["Angular", "Html", "Css", "Tailwind", "SEO"],
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     category: "Web Application",
     desc: "An enterprise-grade hospital information system designed to automate patient onboarding, secure electronic health records, streamline medical billing, and optimize internal workflows for healthcare professionals.",
     icon: LayoutDashboard,
-    image: "/images/image1.jpg",
+    image: "/images/image18.png",
     tags: ["Angular", "NodeJS", "NestJS", "PostgreSQL"],
   },
   {
